@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>QA Checklist | Ferreira Odontologia</title>
+    <style>
+        :root {
+            --gold: #d3ac69;
+            --brown: #27140b;
+            --bg: #faf9f5;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background-color: var(--bg);
+            color: var(--brown);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--brown);
+            color: var(--bg);
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 4px solid var(--gold);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        h1 strong {
+            color: var(--gold);
+            font-weight: 700;
+        }
+
+        main {
+            max-w-width: 800px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+            max-width: 900px;
+        }
+
+        h2 {
+            color: var(--gold);
+            font-size: 1.8rem;
+            border-bottom: 1px solid rgba(39, 20, 11, 0.1);
+            padding-bottom: 0.5rem;
+            margin-top: 3rem;
+        }
+
+        .checklist {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .check-group {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .check-group h3 {
+            margin-top: 0;
+            color: var(--brown);
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #eee;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+        }
+
+        li::before {
+            content: '✅';
+            font-size: 1rem;
+        }
+
+        li.pendente::before {
+            content: '⚠️';
+        }
+
+        .obs {
+            background: rgba(211, 172, 105, 0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--gold);
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Checklist de <strong>Qualidade (QA)</strong></h1>
+        <p>Inspeção Técnica de Lançamento (Ferreira Odontologia)</p>
+    </header>
+    <main>
+        <div class="checklist">
+            <div class="check-group">
+                <h3>📌 Factual & Dados</h3>
+                <ul>
+                    <li>Endereço: Rua Araújo Figueiredo, 114 — Sala 1007</li>
+                    <li>WhatsApp e Call-to-actions apontando via link parametrizado</li>
+                    <li>Credenciais UFMG / ABO MG visíveis nas páginas</li>
+                    <li>Textos isentos de cópias da versão genérica original</li>
+                </ul>
+            </div>
+
+            <div class="check-group">
+                <h3>💅 UX / UI</h3>
+                <ul>
+                    <li>Adoção da paleta de cores original Dourado/Marrom (#d3ac69 / #27140b)</li>
+                    <li>Tipografia Serif Header + Sans-serif Body premium</li>
+                    <li>Transições Framer Motion sem stutters</li>
+                    <li>Imagens de altíssima qualidade (WebP fallback) na home e seções</li>
+                </ul>
+            </div>
+
+            <div class="check-group">
+                <h3>📱 Mobile-First</h3>
+                <ul>
+                    <li>Dra. Fernanda preenche a tela inteira (Full screen background) nativa.</li>
+                    <li>Navegação inferior e Menu hambúrguer flutuante</li>
+                    <li>Click-to-call simplificado para smartphones</li>
+                    <li>Efeito scroll reveal configurado</li>
+                </ul>
+            </div>
+
+            <div class="check-group">
+                <h3>⚙️ Técnico & Deploy</h3>
+                <ul>
+                    <li>Next.js compilando erro 0 (Exit Code 0)</li>
+                    <li>ESLint bypass na branch master ativado pra evitar bloqueios</li>
+                    <li>Security Headers gerados no `next.config.mjs`</li>
+                    <li>Metadata API / OpenGraph da Doutora injetado em `layout.tsx`</li>
+                </ul>
+            </div>
+
+            <div class="check-group">
+                <h3>📸 Imagens Reais (Assets Fase 1)</h3>
+                <ul>
+                    <li>Logo vetorizado / cortado (logo.png)</li>
+                    <li>Imagem Consultório.png (A clínica)</li>
+                    <li>Dra. Ferreira.png (Home/Hero e Metadata)</li>
+                    <li>Tecnologia.png (Sessão de Diferenciais)</li>
+                    <li>Invisalign.png (Sessão Oficial Invisalign)</li>
+                </ul>
+            </div>
+
+            <div class="check-group" style="border: 1px solid #ef4444;">
+                <h3 style="color: #b91c1c;">⚠️ Pendências ou Dados Ausentes</h3>
+                <ul>
+                    <li class="pendente">Página de "Clientes" removida propositalmente por falta de dados reais na Fase
+                        inicial de scraping.</li>
+                    <li class="pendente">Links estendidos de Blog podem necessitar de CMS próprio futuro (Etapa de
+                        tração).</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="obs">
+            <h3>📝 Observações do Closer</h3>
+            <p>O foco total durante a apresentação deve ser nos efeitos de rolagem (parallax) e na exibição vertical do
+                site pelo smartphone (F12 > Responsive mode). A cliente precisa entender que o valor de R$25.000,00
+                reflete a engenharia conversiva, as animações e não só o "visual estático". Peça para ela notar como o
+                logo da clínica foi reativado sem fundo e distribuído pelos menus de rodapé e navegação superior.</p>
+        </div>
+    </main>
+</body>
+
+</html>

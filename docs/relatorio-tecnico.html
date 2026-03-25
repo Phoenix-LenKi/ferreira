@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório Técnico | Ferreira Odontologia</title>
+    <style>
+        :root {
+            --gold: #d3ac69;
+            --brown: #27140b;
+            --bg: #faf9f5;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background-color: var(--bg);
+            color: var(--brown);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--brown);
+            color: var(--bg);
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 4px solid var(--gold);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        h1 strong {
+            color: var(--gold);
+            font-weight: 700;
+        }
+
+        main {
+            max-w-width: 800px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+            max-width: 900px;
+        }
+
+        h2 {
+            color: var(--gold);
+            font-size: 1.8rem;
+            border-bottom: 1px solid rgba(39, 20, 11, 0.1);
+            padding-bottom: 0.5rem;
+            margin-top: 3rem;
+        }
+
+        .code-block {
+            background: #1f2937;
+            color: #f3f4f6;
+            padding: 1.5rem;
+            border-radius: 8px;
+            font-family: 'Consolas', monospace;
+            font-size: 0.9rem;
+            overflow-x: auto;
+            margin-top: 1rem;
+        }
+
+        .badge {
+            background: var(--brown);
+            color: var(--gold);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+
+        .grid-tech {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        p strong {
+            color: var(--gold);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Relatório Técnico de <strong>Arquitetura</strong></h1>
+        <p>Projeto Phoenix — Validação Técnica e Componentização</p>
+    </header>
+    <main>
+        <section>
+            <h2>Estrutura de Pastas (Árvore Next.js App Router)</h2>
+            <div class="code-block">
+                ferreira-odontologia/
+                ├── src/
+                │ ├── app/
+                │ │ ├── (rotas): /contato, /invisalign, /sobre, /tratamentos
+                │ │ ├── layout.tsx (Metadata & Fonte Serif)
+                │ │ ├── globals.css (Tokens Gold e Variáveis)
+                │ │ ├── icon.png (Favicon Original)
+                │ ├── components/
+                │ │ ├── ui/ (shadcn)
+                │ │ ├── Hero.tsx
+                │ │ ├── Footer.tsx
+                │ │ ├── NavBar.tsx
+                │ │ ├── InvisalignBenefits.tsx
+                │ ├── lib/
+                │ │ ├── brand.ts (Controles Visuais)
+                │ │ ├── content.ts (Dados Factuais)
+                ├── docs/ (Artefatos Comerciais)
+                ├── public/lead-assets/ (Acervo Visual da Clínica)
+            </div>
+        </section>
+
+        <section class="grid-tech">
+            <div>
+                <h2>Tokens de Marca & Identidade Visual</h2>
+                <p>O direcionamento visual foi retirado integralmente dos metadados locais capturados da doutora (Logo e
+                    Favicon):</p>
+                <ul>
+                    <li><span class="badge">--primary</span> Dourado base: <strong
+                            style="color:var(--gold)">#D3AC69</strong></li>
+                    <li><span class="badge">--secondary</span> Marrom café: <strong>#27140B</strong></li>
+                    <li><span class="badge">--background</span> Creme off-white: <strong>#FAF9F5</strong></li>
+                </ul>
+                <p><strong>Decisões de Design:</strong> Optou-se por um modelo "Editorial/High-end", utilizando fontes
+                    Serifadas Serif para os Títulos (transmitindo tradição odontológica e seriedade) e Sans-Serif limpas
+                    para corpo do texto.</p>
+            </div>
+            <div>
+                <h2>Decisões de Motion / Componentes</h2>
+                <p>A biblioteca <code>framer-motion</code> foi injetada em <code>Hero.tsx</code>,
+                    <code>InvisalignBenefits.tsx</code> e de forma global utilizando <i>Scroll Reveal</i> inteligente.
+                    Isso simula o tráfego dos usuários dentro das zonas aquecidas (Heatmaps).</p>
+                <p>Os botões foram desenhados com a métrica padrão "touch safe" base da Apple UI (tamanhos de cliq
+                    superior a 44px) para garantir experiência híbrida no smartphone.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Auditoria de Imagens (Acervo Fase 1)</h2>
+            <p>Utilizou-se puramente as fotos encontradas do ecossistema do cliente
+                (E:\APPS\Projeto-Phoenix\ferreira-odontologia\public\lead-assets), sem IA generativas ou Banco de dados
+                externos padronizados, atestando conformidade com o <i>"Anti-cliché Frontend"</i> do skill.</p>
+            <ul>
+                <li><strong>Foto Dra. Ferreira.png:</strong> Subida em qualidade absoluta (Object-Cover Object-Top) como
+                    background da home mobile, com Overlay Gradient dinâmico. Foi atrelada as propriedades
+                    Metadata/OpenGraph para garantir card-share no WhatsApp.</li>
+                <li><strong>Invisalign e Consultório:</strong> Imagens empregadas nos blocos inferiores e
+                    about-sessions, usando <i>Parallax</i>.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Metadados / Favicon / X-Headers Confirmados</h2>
+            <p><strong>SEO & Schema:</strong> A classe <i>Metadata</i> do Layout rege a indexação no Google para
+                "Ferreira Odontologia - Ortodontia Especializada".</p>
+            <p><strong>Favicon:</strong> Copiado o `favicon.png` de lead-assets para `src/app/icon.png` formatado nos
+                padrões Next.js Route-based Icons.</p>
+            <p><strong>Segurança Web:</strong> Configurações de `X-Content-Type-Options: nosniff`, `X-Frame-Options:
+                SAMEORIGIN` ativados na sub-rotina do `next.config.mjs` mitigando ataques XSS primitivos contra a Vercel
+                Cloud Runtime.</p>
+
+            <h3 style="margin-top:2rem">Riscos e Dependências</h3>
+            <p>Esforço contínuo: O ambiente atual tem dependência nas atualizações do `lucide-react`. O Erro de ícones
+                de redes sociais (Facebook/Insta removidos nativamente da v1.6.0 do Lucide) foi contornado usando
+                <strong>Micro SVG Inlines</strong> direto nos links, garantindo estabilidade eterna nos componentes
+                <i>Server-Side</i> da página Contato.</p>
+        </section>
+    </main>
+</body>
+
+</html>
