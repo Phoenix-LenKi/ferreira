@@ -1,0 +1,2213 @@
+{
+  "tool": "phoenix-scraper",
+  "version": "2.0.0",
+  "originalSiteUrl": "https://ferreirafernanda.com/",
+  "generatedAt": "2026-03-25T04:44:30Z",
+  "settings": {
+    "maxPages": 30,
+    "timeout": 20,
+    "delay": 0.0,
+    "includeSubdomains": true,
+    "includeExternalAssets": true
+  },
+  "summary": {
+    "pagesVisited": 11,
+    "assetsDownloaded": 25,
+    "uniqueAssets": 44,
+    "discoveredLinks": 8,
+    "errors": 19
+  },
+  "linksFound": [
+    "https://ferreirafernanda.com/",
+    "https://ferreirafernanda.com/clientes",
+    "https://ferreirafernanda.com/invisalign",
+    "https://ferreirafernanda.com/tecnologias",
+    "https://ferreirafernanda.com/contato",
+    "https://ferreirafernanda.com/post/branqueamento-dentarios",
+    "https://ferreirafernanda.com/post/facetas-dentarias",
+    "https://ferreirafernanda.com/post/harmonizacao-facial",
+    "https://ferreirafernanda.com/post/higiene-oral",
+    "https://ferreirafernanda.com/post/odontopediatra",
+    "https://ferreirafernanda.com/tratamentos"
+  ],
+  "pages": [
+    {
+      "url": "https://ferreirafernanda.com/",
+      "slug": "home",
+      "title": "Dr Fernanda Ferreira",
+      "status": "ok",
+      "localHtmlPath": "pages/home.html",
+      "imageCount": 19,
+      "images": [
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/doutora.6b2858dc.jpeg&w=1200",
+          "localPath": "images/home/image.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "doutora sorrindo",
+          "roleHint": "general",
+          "mimeType": "image/webp",
+          "width": 594,
+          "height": 594,
+          "sizeBytes": 10276,
+          "sha1": "647f10213a0ff586ad8ca182c8642afdd616c9a5",
+          "qualityFlags": [
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/about.6f49f86f.png&w=1920",
+          "localPath": "images/home/image_1.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "doutora operando paciente",
+          "roleHint": "general",
+          "mimeType": "image/webp",
+          "width": 601,
+          "height": 558,
+          "sizeBytes": 22774,
+          "sha1": "15fb45517daf531cf05b307b045e993704c3e31a",
+          "qualityFlags": [
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/baby.68794eb1.svg",
+          "localPath": "images/home/baby.68794eb1.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.followme_icon",
+          "alt": "happy baby icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 915,
+          "sha1": "bdf59340e0d9c0de7eb7409c7b14062277cb14b4",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/labios.9b55237e.svg",
+          "localPath": "images/home/labios.9b55237e.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.followme_icon",
+          "alt": "lips smiling icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 1268,
+          "sha1": "1319b7437d15a6c869ad7780cd5174c07cd00e43",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/iphone-prototype.8e4424f4.png&w=3840",
+          "localPath": "images/home/image_2.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "iphone wrapper to images inside",
+          "roleHint": "general",
+          "mimeType": "image/webp",
+          "width": 1076,
+          "height": 1628,
+          "sizeBytes": 26160,
+          "sha1": "78800cfac117394737a059468e476af268006736",
+          "qualityFlags": [
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/insta4.4569d34e.png&w=3840",
+          "localPath": "images/home/image_3.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "image/webp",
+          "width": 1179,
+          "height": 2418,
+          "sizeBytes": 49336,
+          "sha1": "6083be3ced8da7ec6751f58d9057026b6925b320",
+          "qualityFlags": [
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/insta1.7fe284c7.png&w=1920",
+          "localPath": "images/home/image_4.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "image/webp",
+          "width": 828,
+          "height": 1720,
+          "sizeBytes": 89804,
+          "sha1": "484e671015b64ad9014f81569dcf58b38b0319c7",
+          "qualityFlags": [
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/insta3.2a51745d.png&w=1920",
+          "localPath": "images/home/image_5.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "image/webp",
+          "width": 828,
+          "height": 1720,
+          "sizeBytes": 55588,
+          "sha1": "83c9ac4d09f91b96b3eb7bff78dd67f082a31b96",
+          "qualityFlags": [
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/insta2.a5ad6c0e.png&w=3840",
+          "localPath": "images/home/image_6.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "image/webp",
+          "width": 1179,
+          "height": 2418,
+          "sizeBytes": 51254,
+          "sha1": "f4c1450bd096c0ba570cc17af7c312addce4bac2",
+          "qualityFlags": [
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/cuidados-de-saude.70a73399.svg",
+          "localPath": "images/home/cuidados-de-saude.70a73399.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.followme_icon",
+          "alt": "happy baby icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 1841,
+          "sha1": "a7d92c83c501db1c0589554714e04a8b27b8bc18",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/medico.c51c3a42.svg",
+          "localPath": "images/home/medico.c51c3a42.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.followme_icon",
+          "alt": "lips smiling icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 868,
+          "sha1": "8ac405eb5cfc8e8dde51877885a68374297559a0",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/facebook.7c261143.svg",
+          "localPath": "images/home/facebook.7c261143.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "fb icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 697,
+          "sha1": "c488813d6d7aa23f695edf44ebd8b8c771d69f82",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/instagram.f4839161.svg",
+          "localPath": "images/home/instagram.f4839161.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "insta icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 842,
+          "sha1": "2f190678c2ee1f1aca8108fafcb2f7403a763b28",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/linkedin.a17e9461.svg",
+          "localPath": "images/home/linkedin.a17e9461.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "linkedin icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 1022,
+          "sha1": "8b74e056c7bb6d0ab80d5f2503f949aeb6548f36",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/WhatsApp.dda9cde6.png&w=1920",
+          "localPath": "images/home/image_7.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "whatsapp icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/webp",
+          "width": 801,
+          "height": 801,
+          "sizeBytes": 12364,
+          "sha1": "5b054c44603b65646522e3b7f73ad0c47325b98e",
+          "qualityFlags": [
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHIC.woff",
+          "localPath": "images/home/GOTHIC.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 84104,
+          "sha1": "6d5b64ba98d96bdacd27dabfe1a6da01211ca06d",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICI.woff",
+          "localPath": "images/home/GOTHICI.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 89504,
+          "sha1": "c3e7c4fde2a413de1fd72507f99e497e8ed023df",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICB.woff",
+          "localPath": "images/home/GOTHICB.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 77700,
+          "sha1": "4a045d21844b09d6488f951eecec8f9178430f60",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICBI.woff",
+          "localPath": "images/home/GOTHICBI.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 82348,
+          "sha1": "b3ffa3c53caeb0c33e66a43013401d24c07a8934",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/"
+        }
+      ],
+      "discoveredInternalLinks": [
+        "https://ferreirafernanda.com/clientes",
+        "https://ferreirafernanda.com/tratamentos"
+      ]
+    },
+    {
+      "url": "https://ferreirafernanda.com/clientes",
+      "slug": "clientes",
+      "title": "Dr Fernanda Ferreira",
+      "status": "ok",
+      "localHtmlPath": "pages/clientes.html",
+      "imageCount": 8,
+      "images": [
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/facebook.7c261143.svg",
+          "localPath": "images/home/facebook.7c261143.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "fb icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 697,
+          "sha1": "c488813d6d7aa23f695edf44ebd8b8c771d69f82",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/clientes",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/instagram.f4839161.svg",
+          "localPath": "images/home/instagram.f4839161.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "insta icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 842,
+          "sha1": "2f190678c2ee1f1aca8108fafcb2f7403a763b28",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/clientes",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/linkedin.a17e9461.svg",
+          "localPath": "images/home/linkedin.a17e9461.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "linkedin icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 1022,
+          "sha1": "8b74e056c7bb6d0ab80d5f2503f949aeb6548f36",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/clientes",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/WhatsApp.dda9cde6.png&w=1920",
+          "localPath": "images/home/image_7.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "whatsapp icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/webp",
+          "width": 801,
+          "height": 801,
+          "sizeBytes": 12364,
+          "sha1": "5b054c44603b65646522e3b7f73ad0c47325b98e",
+          "qualityFlags": [
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/clientes",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHIC.woff",
+          "localPath": "images/home/GOTHIC.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 84104,
+          "sha1": "6d5b64ba98d96bdacd27dabfe1a6da01211ca06d",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/clientes",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICI.woff",
+          "localPath": "images/home/GOTHICI.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 89504,
+          "sha1": "c3e7c4fde2a413de1fd72507f99e497e8ed023df",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/clientes",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICB.woff",
+          "localPath": "images/home/GOTHICB.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 77700,
+          "sha1": "4a045d21844b09d6488f951eecec8f9178430f60",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/clientes",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICBI.woff",
+          "localPath": "images/home/GOTHICBI.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 82348,
+          "sha1": "b3ffa3c53caeb0c33e66a43013401d24c07a8934",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/clientes",
+          "reusedFromCache": true
+        }
+      ],
+      "discoveredInternalLinks": []
+    },
+    {
+      "url": "https://ferreirafernanda.com/tratamentos",
+      "slug": "tratamentos",
+      "title": "Dr Fernanda Ferreira",
+      "status": "ok",
+      "localHtmlPath": "pages/tratamentos.html",
+      "imageCount": 8,
+      "images": [
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/facebook.7c261143.svg",
+          "localPath": "images/home/facebook.7c261143.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "fb icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 697,
+          "sha1": "c488813d6d7aa23f695edf44ebd8b8c771d69f82",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/tratamentos",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/instagram.f4839161.svg",
+          "localPath": "images/home/instagram.f4839161.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "insta icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 842,
+          "sha1": "2f190678c2ee1f1aca8108fafcb2f7403a763b28",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/tratamentos",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/linkedin.a17e9461.svg",
+          "localPath": "images/home/linkedin.a17e9461.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "linkedin icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 1022,
+          "sha1": "8b74e056c7bb6d0ab80d5f2503f949aeb6548f36",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/tratamentos",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/WhatsApp.dda9cde6.png&w=1920",
+          "localPath": "images/home/image_7.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "whatsapp icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/webp",
+          "width": 801,
+          "height": 801,
+          "sizeBytes": 12364,
+          "sha1": "5b054c44603b65646522e3b7f73ad0c47325b98e",
+          "qualityFlags": [
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/tratamentos",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHIC.woff",
+          "localPath": "images/home/GOTHIC.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 84104,
+          "sha1": "6d5b64ba98d96bdacd27dabfe1a6da01211ca06d",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/tratamentos",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICI.woff",
+          "localPath": "images/home/GOTHICI.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 89504,
+          "sha1": "c3e7c4fde2a413de1fd72507f99e497e8ed023df",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/tratamentos",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICB.woff",
+          "localPath": "images/home/GOTHICB.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 77700,
+          "sha1": "4a045d21844b09d6488f951eecec8f9178430f60",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/tratamentos",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICBI.woff",
+          "localPath": "images/home/GOTHICBI.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 82348,
+          "sha1": "b3ffa3c53caeb0c33e66a43013401d24c07a8934",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/tratamentos",
+          "reusedFromCache": true
+        }
+      ],
+      "discoveredInternalLinks": [
+        "https://ferreirafernanda.com/post/branqueamento-dentarios",
+        "https://ferreirafernanda.com/post/facetas-dentarias",
+        "https://ferreirafernanda.com/post/harmonizacao-facial",
+        "https://ferreirafernanda.com/post/higiene-oral",
+        "https://ferreirafernanda.com/post/odontopediatra"
+      ]
+    },
+    {
+      "url": "https://ferreirafernanda.com/post/higiene-oral",
+      "slug": "post__higiene-oral",
+      "title": "Dr Fernanda Ferreira",
+      "status": "ok",
+      "localHtmlPath": "pages/post__higiene-oral.html",
+      "imageCount": 10,
+      "images": [
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/banner_clientes.148340a3.png&w=3840",
+          "localPath": "images/post__higiene-oral/image.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img.banner_img",
+          "alt": "Higiene Oral",
+          "roleHint": "hero_or_banner",
+          "mimeType": "image/webp",
+          "width": 1920,
+          "height": 1080,
+          "sizeBytes": 14852,
+          "sha1": "4b99a83684383dde55b1692ccaa711e8d0d998a5",
+          "qualityFlags": [
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/higiene-oral"
+        },
+        {
+          "sourceUrl": "https://images.ctfassets.net/s2g3zreylmbb/2kxks3l9mry2uLstjkAkdB/2d917646cbf4b0747bd6caeb77dabfb0/odontologia-e-conceito-de-saude-dos-dentes-na-clinica-odontologica-dentes-de-check-up-dentista-para-jovem-paciente-asiatico.webp",
+          "localPath": "images/post__higiene-oral/odontologia-e-conceito-de-saude-dos-dentes-na-clinica-odontologica-dentes-de-check-up-dentista-para-jovem-paciente-asiatico.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img.chakra-image.css-0",
+          "alt": "Higiene Oral",
+          "roleHint": "team",
+          "mimeType": "image/webp",
+          "width": 626,
+          "height": 418,
+          "sizeBytes": 38558,
+          "sha1": "2da7bfe277786e983ee4b754b6fbe8c031bf47b0",
+          "qualityFlags": [
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/higiene-oral"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/facebook.7c261143.svg",
+          "localPath": "images/home/facebook.7c261143.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "fb icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 697,
+          "sha1": "c488813d6d7aa23f695edf44ebd8b8c771d69f82",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/higiene-oral",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/instagram.f4839161.svg",
+          "localPath": "images/home/instagram.f4839161.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "insta icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 842,
+          "sha1": "2f190678c2ee1f1aca8108fafcb2f7403a763b28",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/higiene-oral",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/linkedin.a17e9461.svg",
+          "localPath": "images/home/linkedin.a17e9461.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "linkedin icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 1022,
+          "sha1": "8b74e056c7bb6d0ab80d5f2503f949aeb6548f36",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/higiene-oral",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/WhatsApp.dda9cde6.png&w=1920",
+          "localPath": "images/home/image_7.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "whatsapp icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/webp",
+          "width": 801,
+          "height": 801,
+          "sizeBytes": 12364,
+          "sha1": "5b054c44603b65646522e3b7f73ad0c47325b98e",
+          "qualityFlags": [
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/higiene-oral",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHIC.woff",
+          "localPath": "images/home/GOTHIC.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 84104,
+          "sha1": "6d5b64ba98d96bdacd27dabfe1a6da01211ca06d",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/higiene-oral",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICI.woff",
+          "localPath": "images/home/GOTHICI.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 89504,
+          "sha1": "c3e7c4fde2a413de1fd72507f99e497e8ed023df",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/higiene-oral",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICB.woff",
+          "localPath": "images/home/GOTHICB.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 77700,
+          "sha1": "4a045d21844b09d6488f951eecec8f9178430f60",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/higiene-oral",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICBI.woff",
+          "localPath": "images/home/GOTHICBI.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 82348,
+          "sha1": "b3ffa3c53caeb0c33e66a43013401d24c07a8934",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/higiene-oral",
+          "reusedFromCache": true
+        }
+      ],
+      "discoveredInternalLinks": []
+    },
+    {
+      "url": "https://ferreirafernanda.com/post/harmonizacao-facial",
+      "slug": "post__harmonizacao-facial",
+      "title": "Dr Fernanda Ferreira",
+      "status": "ok",
+      "localHtmlPath": "pages/post__harmonizacao-facial.html",
+      "imageCount": 10,
+      "images": [
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/banner_clientes.148340a3.png&w=3840",
+          "localPath": "images/post__higiene-oral/image.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img.banner_img",
+          "alt": "Higiene Oral",
+          "roleHint": "hero_or_banner",
+          "mimeType": "image/webp",
+          "width": 1920,
+          "height": 1080,
+          "sizeBytes": 14852,
+          "sha1": "4b99a83684383dde55b1692ccaa711e8d0d998a5",
+          "qualityFlags": [
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/harmonizacao-facial",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://images.ctfassets.net/s2g3zreylmbb/6HVcKgnKu8UMVY1YfIC1g4/b4e7c459873cdb6779969f2ec743733a/botox-beneficios-large_m-1.webp",
+          "localPath": "images/post__harmonizacao-facial/botox-beneficios-large_m-1.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img.chakra-image.css-0",
+          "alt": "HARMONIZAÇÃO FACIAL",
+          "roleHint": "general",
+          "mimeType": "image/webp",
+          "width": 940,
+          "height": 494,
+          "sizeBytes": 25242,
+          "sha1": "e030c8dd9e3f4ed8f3c2d809f61a62fe292dc4d5",
+          "qualityFlags": [
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/harmonizacao-facial"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/facebook.7c261143.svg",
+          "localPath": "images/home/facebook.7c261143.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "fb icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 697,
+          "sha1": "c488813d6d7aa23f695edf44ebd8b8c771d69f82",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/harmonizacao-facial",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/instagram.f4839161.svg",
+          "localPath": "images/home/instagram.f4839161.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "insta icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 842,
+          "sha1": "2f190678c2ee1f1aca8108fafcb2f7403a763b28",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/harmonizacao-facial",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/linkedin.a17e9461.svg",
+          "localPath": "images/home/linkedin.a17e9461.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "linkedin icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 1022,
+          "sha1": "8b74e056c7bb6d0ab80d5f2503f949aeb6548f36",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/harmonizacao-facial",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/WhatsApp.dda9cde6.png&w=1920",
+          "localPath": "images/home/image_7.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "whatsapp icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/webp",
+          "width": 801,
+          "height": 801,
+          "sizeBytes": 12364,
+          "sha1": "5b054c44603b65646522e3b7f73ad0c47325b98e",
+          "qualityFlags": [
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/harmonizacao-facial",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHIC.woff",
+          "localPath": "images/home/GOTHIC.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 84104,
+          "sha1": "6d5b64ba98d96bdacd27dabfe1a6da01211ca06d",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/harmonizacao-facial",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICI.woff",
+          "localPath": "images/home/GOTHICI.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 89504,
+          "sha1": "c3e7c4fde2a413de1fd72507f99e497e8ed023df",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/harmonizacao-facial",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICB.woff",
+          "localPath": "images/home/GOTHICB.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 77700,
+          "sha1": "4a045d21844b09d6488f951eecec8f9178430f60",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/harmonizacao-facial",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICBI.woff",
+          "localPath": "images/home/GOTHICBI.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 82348,
+          "sha1": "b3ffa3c53caeb0c33e66a43013401d24c07a8934",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/harmonizacao-facial",
+          "reusedFromCache": true
+        }
+      ],
+      "discoveredInternalLinks": []
+    },
+    {
+      "url": "https://ferreirafernanda.com/post/facetas-dentarias",
+      "slug": "post__facetas-dentarias",
+      "title": "Dr Fernanda Ferreira",
+      "status": "ok",
+      "localHtmlPath": "pages/post__facetas-dentarias.html",
+      "imageCount": 10,
+      "images": [
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/banner_clientes.148340a3.png&w=3840",
+          "localPath": "images/post__higiene-oral/image.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img.banner_img",
+          "alt": "Higiene Oral",
+          "roleHint": "hero_or_banner",
+          "mimeType": "image/webp",
+          "width": 1920,
+          "height": 1080,
+          "sizeBytes": 14852,
+          "sha1": "4b99a83684383dde55b1692ccaa711e8d0d998a5",
+          "qualityFlags": [
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/facetas-dentarias",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://images.ctfassets.net/s2g3zreylmbb/4iqwjIsckIkoyFRFSa803E/af4d7e19aba605e656c6c5546176f089/FACETAS_DENTARIAS_.jpeg",
+          "localPath": "images/post__facetas-dentarias/FACETAS_DENTARIAS_.jpeg",
+          "sourceType": "img:src",
+          "selectorHint": "img.chakra-image.css-0",
+          "alt": "Facetas Dentarias",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 1024,
+          "height": 576,
+          "sizeBytes": 286432,
+          "sha1": "d2612ecc295e2fcb73c0b167e0b48a2074b092fa",
+          "qualityFlags": [
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/facetas-dentarias"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/facebook.7c261143.svg",
+          "localPath": "images/home/facebook.7c261143.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "fb icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 697,
+          "sha1": "c488813d6d7aa23f695edf44ebd8b8c771d69f82",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/facetas-dentarias",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/instagram.f4839161.svg",
+          "localPath": "images/home/instagram.f4839161.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "insta icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 842,
+          "sha1": "2f190678c2ee1f1aca8108fafcb2f7403a763b28",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/facetas-dentarias",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/linkedin.a17e9461.svg",
+          "localPath": "images/home/linkedin.a17e9461.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "linkedin icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 1022,
+          "sha1": "8b74e056c7bb6d0ab80d5f2503f949aeb6548f36",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/facetas-dentarias",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/WhatsApp.dda9cde6.png&w=1920",
+          "localPath": "images/home/image_7.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "whatsapp icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/webp",
+          "width": 801,
+          "height": 801,
+          "sizeBytes": 12364,
+          "sha1": "5b054c44603b65646522e3b7f73ad0c47325b98e",
+          "qualityFlags": [
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/facetas-dentarias",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHIC.woff",
+          "localPath": "images/home/GOTHIC.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 84104,
+          "sha1": "6d5b64ba98d96bdacd27dabfe1a6da01211ca06d",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/facetas-dentarias",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICI.woff",
+          "localPath": "images/home/GOTHICI.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 89504,
+          "sha1": "c3e7c4fde2a413de1fd72507f99e497e8ed023df",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/facetas-dentarias",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICB.woff",
+          "localPath": "images/home/GOTHICB.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 77700,
+          "sha1": "4a045d21844b09d6488f951eecec8f9178430f60",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/facetas-dentarias",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICBI.woff",
+          "localPath": "images/home/GOTHICBI.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 82348,
+          "sha1": "b3ffa3c53caeb0c33e66a43013401d24c07a8934",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/facetas-dentarias",
+          "reusedFromCache": true
+        }
+      ],
+      "discoveredInternalLinks": []
+    },
+    {
+      "url": "https://ferreirafernanda.com/post/branqueamento-dentarios",
+      "slug": "post__branqueamento-dentarios",
+      "title": "Dr Fernanda Ferreira",
+      "status": "ok",
+      "localHtmlPath": "pages/post__branqueamento-dentarios.html",
+      "imageCount": 10,
+      "images": [
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/banner_clientes.148340a3.png&w=3840",
+          "localPath": "images/post__higiene-oral/image.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img.banner_img",
+          "alt": "Higiene Oral",
+          "roleHint": "hero_or_banner",
+          "mimeType": "image/webp",
+          "width": 1920,
+          "height": 1080,
+          "sizeBytes": 14852,
+          "sha1": "4b99a83684383dde55b1692ccaa711e8d0d998a5",
+          "qualityFlags": [
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/branqueamento-dentarios",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://images.ctfassets.net/s2g3zreylmbb/Cu9wNZDjy24a2MCFriDw4/9bed94d4f4e4347fb8fa70457305b172/Branqueamento-dentario-antes-depois-1024x338.jpeg",
+          "localPath": "images/post__branqueamento-dentarios/Branqueamento-dentario-antes-depois-1024x338.jpeg",
+          "sourceType": "img:src",
+          "selectorHint": "img.chakra-image.css-0",
+          "alt": "BRANQUEAMENTO DENTÁRIOS",
+          "roleHint": "before_after",
+          "mimeType": "image/jpeg",
+          "width": 1024,
+          "height": 338,
+          "sizeBytes": 63393,
+          "sha1": "2732be2e565c294d6ab17436a2d20254be5d0a76",
+          "qualityFlags": [
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/branqueamento-dentarios"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/facebook.7c261143.svg",
+          "localPath": "images/home/facebook.7c261143.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "fb icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 697,
+          "sha1": "c488813d6d7aa23f695edf44ebd8b8c771d69f82",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/branqueamento-dentarios",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/instagram.f4839161.svg",
+          "localPath": "images/home/instagram.f4839161.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "insta icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 842,
+          "sha1": "2f190678c2ee1f1aca8108fafcb2f7403a763b28",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/branqueamento-dentarios",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/linkedin.a17e9461.svg",
+          "localPath": "images/home/linkedin.a17e9461.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "linkedin icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 1022,
+          "sha1": "8b74e056c7bb6d0ab80d5f2503f949aeb6548f36",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/branqueamento-dentarios",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/WhatsApp.dda9cde6.png&w=1920",
+          "localPath": "images/home/image_7.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "whatsapp icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/webp",
+          "width": 801,
+          "height": 801,
+          "sizeBytes": 12364,
+          "sha1": "5b054c44603b65646522e3b7f73ad0c47325b98e",
+          "qualityFlags": [
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/branqueamento-dentarios",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHIC.woff",
+          "localPath": "images/home/GOTHIC.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 84104,
+          "sha1": "6d5b64ba98d96bdacd27dabfe1a6da01211ca06d",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/branqueamento-dentarios",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICI.woff",
+          "localPath": "images/home/GOTHICI.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 89504,
+          "sha1": "c3e7c4fde2a413de1fd72507f99e497e8ed023df",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/branqueamento-dentarios",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICB.woff",
+          "localPath": "images/home/GOTHICB.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 77700,
+          "sha1": "4a045d21844b09d6488f951eecec8f9178430f60",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/branqueamento-dentarios",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICBI.woff",
+          "localPath": "images/home/GOTHICBI.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 82348,
+          "sha1": "b3ffa3c53caeb0c33e66a43013401d24c07a8934",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/branqueamento-dentarios",
+          "reusedFromCache": true
+        }
+      ],
+      "discoveredInternalLinks": []
+    },
+    {
+      "url": "https://ferreirafernanda.com/post/odontopediatra",
+      "slug": "post__odontopediatra",
+      "title": "Dr Fernanda Ferreira",
+      "status": "ok",
+      "localHtmlPath": "pages/post__odontopediatra.html",
+      "imageCount": 10,
+      "images": [
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/banner_clientes.148340a3.png&w=3840",
+          "localPath": "images/post__higiene-oral/image.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img.banner_img",
+          "alt": "Higiene Oral",
+          "roleHint": "hero_or_banner",
+          "mimeType": "image/webp",
+          "width": 1920,
+          "height": 1080,
+          "sizeBytes": 14852,
+          "sha1": "4b99a83684383dde55b1692ccaa711e8d0d998a5",
+          "qualityFlags": [
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/odontopediatra",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://images.ctfassets.net/s2g3zreylmbb/4eKM794Kh0FOUaUTnS7YWj/679f561555560b2b27adda1f1d9a2597/odontopediatria-image.jpeg",
+          "localPath": "images/post__odontopediatra/odontopediatria-image.jpeg",
+          "sourceType": "img:src",
+          "selectorHint": "img.chakra-image.css-0",
+          "alt": "ODONTOPEDIATRA",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 1600,
+          "height": 1066,
+          "sizeBytes": 118402,
+          "sha1": "2d1985f3ce6d3aa6cec9d043f88fd141f67c3dda",
+          "qualityFlags": [],
+          "foundOnPage": "https://ferreirafernanda.com/post/odontopediatra"
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/facebook.7c261143.svg",
+          "localPath": "images/home/facebook.7c261143.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "fb icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 697,
+          "sha1": "c488813d6d7aa23f695edf44ebd8b8c771d69f82",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/odontopediatra",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/instagram.f4839161.svg",
+          "localPath": "images/home/instagram.f4839161.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "insta icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 842,
+          "sha1": "2f190678c2ee1f1aca8108fafcb2f7403a763b28",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/odontopediatra",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/static/media/linkedin.a17e9461.svg",
+          "localPath": "images/home/linkedin.a17e9461.svg",
+          "sourceType": "img:src",
+          "selectorHint": "img.icon",
+          "alt": "linkedin icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/svg+xml",
+          "width": null,
+          "height": null,
+          "sizeBytes": 1022,
+          "sha1": "8b74e056c7bb6d0ab80d5f2503f949aeb6548f36",
+          "qualityFlags": [
+            "dimensions_unknown",
+            "vector_asset"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/odontopediatra",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/WhatsApp.dda9cde6.png&w=1920",
+          "localPath": "images/home/image_7.webp",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "whatsapp icon",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/webp",
+          "width": 801,
+          "height": 801,
+          "sizeBytes": 12364,
+          "sha1": "5b054c44603b65646522e3b7f73ad0c47325b98e",
+          "qualityFlags": [
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/odontopediatra",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHIC.woff",
+          "localPath": "images/home/GOTHIC.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 84104,
+          "sha1": "6d5b64ba98d96bdacd27dabfe1a6da01211ca06d",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/odontopediatra",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICI.woff",
+          "localPath": "images/home/GOTHICI.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 89504,
+          "sha1": "c3e7c4fde2a413de1fd72507f99e497e8ed023df",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/odontopediatra",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICB.woff",
+          "localPath": "images/home/GOTHICB.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 77700,
+          "sha1": "4a045d21844b09d6488f951eecec8f9178430f60",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/odontopediatra",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICBI.woff",
+          "localPath": "images/home/GOTHICBI.woff",
+          "sourceType": "css:url",
+          "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "font/woff",
+          "width": null,
+          "height": null,
+          "sizeBytes": 82348,
+          "sha1": "b3ffa3c53caeb0c33e66a43013401d24c07a8934",
+          "qualityFlags": [
+            "dimensions_unknown"
+          ],
+          "foundOnPage": "https://ferreirafernanda.com/post/odontopediatra",
+          "reusedFromCache": true
+        }
+      ],
+      "discoveredInternalLinks": []
+    }
+  ],
+  "assets": [
+    {
+      "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/doutora.6b2858dc.jpeg&w=1200",
+      "localPath": "images/home/image.webp",
+      "sourceType": "img:src",
+      "selectorHint": "img",
+      "alt": "doutora sorrindo",
+      "roleHint": "general",
+      "mimeType": "image/webp",
+      "width": 594,
+      "height": 594,
+      "sizeBytes": 10276,
+      "sha1": "647f10213a0ff586ad8ca182c8642afdd616c9a5",
+      "qualityFlags": [
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/about.6f49f86f.png&w=1920",
+      "localPath": "images/home/image_1.webp",
+      "sourceType": "img:src",
+      "selectorHint": "img",
+      "alt": "doutora operando paciente",
+      "roleHint": "general",
+      "mimeType": "image/webp",
+      "width": 601,
+      "height": 558,
+      "sizeBytes": 22774,
+      "sha1": "15fb45517daf531cf05b307b045e993704c3e31a",
+      "qualityFlags": [
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://ferreirafernanda.com/_next/static/media/baby.68794eb1.svg",
+      "localPath": "images/home/baby.68794eb1.svg",
+      "sourceType": "img:src",
+      "selectorHint": "img.followme_icon",
+      "alt": "happy baby icon",
+      "roleHint": "logo_or_icon",
+      "mimeType": "image/svg+xml",
+      "width": null,
+      "height": null,
+      "sizeBytes": 915,
+      "sha1": "bdf59340e0d9c0de7eb7409c7b14062277cb14b4",
+      "qualityFlags": [
+        "dimensions_unknown",
+        "vector_asset"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://ferreirafernanda.com/_next/static/media/labios.9b55237e.svg",
+      "localPath": "images/home/labios.9b55237e.svg",
+      "sourceType": "img:src",
+      "selectorHint": "img.followme_icon",
+      "alt": "lips smiling icon",
+      "roleHint": "logo_or_icon",
+      "mimeType": "image/svg+xml",
+      "width": null,
+      "height": null,
+      "sizeBytes": 1268,
+      "sha1": "1319b7437d15a6c869ad7780cd5174c07cd00e43",
+      "qualityFlags": [
+        "dimensions_unknown",
+        "vector_asset"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/iphone-prototype.8e4424f4.png&w=3840",
+      "localPath": "images/home/image_2.webp",
+      "sourceType": "img:src",
+      "selectorHint": "img",
+      "alt": "iphone wrapper to images inside",
+      "roleHint": "general",
+      "mimeType": "image/webp",
+      "width": 1076,
+      "height": 1628,
+      "sizeBytes": 26160,
+      "sha1": "78800cfac117394737a059468e476af268006736",
+      "qualityFlags": [
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/insta4.4569d34e.png&w=3840",
+      "localPath": "images/home/image_3.webp",
+      "sourceType": "img:src",
+      "selectorHint": "img",
+      "alt": "",
+      "roleHint": "general",
+      "mimeType": "image/webp",
+      "width": 1179,
+      "height": 2418,
+      "sizeBytes": 49336,
+      "sha1": "6083be3ced8da7ec6751f58d9057026b6925b320",
+      "qualityFlags": [
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/insta1.7fe284c7.png&w=1920",
+      "localPath": "images/home/image_4.webp",
+      "sourceType": "img:src",
+      "selectorHint": "img",
+      "alt": "",
+      "roleHint": "general",
+      "mimeType": "image/webp",
+      "width": 828,
+      "height": 1720,
+      "sizeBytes": 89804,
+      "sha1": "484e671015b64ad9014f81569dcf58b38b0319c7",
+      "qualityFlags": [
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/insta3.2a51745d.png&w=1920",
+      "localPath": "images/home/image_5.webp",
+      "sourceType": "img:src",
+      "selectorHint": "img",
+      "alt": "",
+      "roleHint": "general",
+      "mimeType": "image/webp",
+      "width": 828,
+      "height": 1720,
+      "sizeBytes": 55588,
+      "sha1": "83c9ac4d09f91b96b3eb7bff78dd67f082a31b96",
+      "qualityFlags": [
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/insta2.a5ad6c0e.png&w=3840",
+      "localPath": "images/home/image_6.webp",
+      "sourceType": "img:src",
+      "selectorHint": "img",
+      "alt": "",
+      "roleHint": "general",
+      "mimeType": "image/webp",
+      "width": 1179,
+      "height": 2418,
+      "sizeBytes": 51254,
+      "sha1": "f4c1450bd096c0ba570cc17af7c312addce4bac2",
+      "qualityFlags": [
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://ferreirafernanda.com/_next/static/media/cuidados-de-saude.70a73399.svg",
+      "localPath": "images/home/cuidados-de-saude.70a73399.svg",
+      "sourceType": "img:src",
+      "selectorHint": "img.followme_icon",
+      "alt": "happy baby icon",
+      "roleHint": "logo_or_icon",
+      "mimeType": "image/svg+xml",
+      "width": null,
+      "height": null,
+      "sizeBytes": 1841,
+      "sha1": "a7d92c83c501db1c0589554714e04a8b27b8bc18",
+      "qualityFlags": [
+        "dimensions_unknown",
+        "vector_asset"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://ferreirafernanda.com/_next/static/media/medico.c51c3a42.svg",
+      "localPath": "images/home/medico.c51c3a42.svg",
+      "sourceType": "img:src",
+      "selectorHint": "img.followme_icon",
+      "alt": "lips smiling icon",
+      "roleHint": "logo_or_icon",
+      "mimeType": "image/svg+xml",
+      "width": null,
+      "height": null,
+      "sizeBytes": 868,
+      "sha1": "8ac405eb5cfc8e8dde51877885a68374297559a0",
+      "qualityFlags": [
+        "dimensions_unknown",
+        "vector_asset"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://ferreirafernanda.com/_next/static/media/facebook.7c261143.svg",
+      "localPath": "images/home/facebook.7c261143.svg",
+      "sourceType": "img:src",
+      "selectorHint": "img.icon",
+      "alt": "fb icon",
+      "roleHint": "logo_or_icon",
+      "mimeType": "image/svg+xml",
+      "width": null,
+      "height": null,
+      "sizeBytes": 697,
+      "sha1": "c488813d6d7aa23f695edf44ebd8b8c771d69f82",
+      "qualityFlags": [
+        "dimensions_unknown",
+        "vector_asset"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://ferreirafernanda.com/_next/static/media/instagram.f4839161.svg",
+      "localPath": "images/home/instagram.f4839161.svg",
+      "sourceType": "img:src",
+      "selectorHint": "img.icon",
+      "alt": "insta icon",
+      "roleHint": "logo_or_icon",
+      "mimeType": "image/svg+xml",
+      "width": null,
+      "height": null,
+      "sizeBytes": 842,
+      "sha1": "2f190678c2ee1f1aca8108fafcb2f7403a763b28",
+      "qualityFlags": [
+        "dimensions_unknown",
+        "vector_asset"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://ferreirafernanda.com/_next/static/media/linkedin.a17e9461.svg",
+      "localPath": "images/home/linkedin.a17e9461.svg",
+      "sourceType": "img:src",
+      "selectorHint": "img.icon",
+      "alt": "linkedin icon",
+      "roleHint": "logo_or_icon",
+      "mimeType": "image/svg+xml",
+      "width": null,
+      "height": null,
+      "sizeBytes": 1022,
+      "sha1": "8b74e056c7bb6d0ab80d5f2503f949aeb6548f36",
+      "qualityFlags": [
+        "dimensions_unknown",
+        "vector_asset"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/WhatsApp.dda9cde6.png&w=1920",
+      "localPath": "images/home/image_7.webp",
+      "sourceType": "img:src",
+      "selectorHint": "img",
+      "alt": "whatsapp icon",
+      "roleHint": "logo_or_icon",
+      "mimeType": "image/webp",
+      "width": 801,
+      "height": 801,
+      "sizeBytes": 12364,
+      "sha1": "5b054c44603b65646522e3b7f73ad0c47325b98e",
+      "qualityFlags": [
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHIC.woff",
+      "localPath": "images/home/GOTHIC.woff",
+      "sourceType": "css:url",
+      "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+      "alt": "",
+      "roleHint": "general",
+      "mimeType": "font/woff",
+      "width": null,
+      "height": null,
+      "sizeBytes": 84104,
+      "sha1": "6d5b64ba98d96bdacd27dabfe1a6da01211ca06d",
+      "qualityFlags": [
+        "dimensions_unknown"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICI.woff",
+      "localPath": "images/home/GOTHICI.woff",
+      "sourceType": "css:url",
+      "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+      "alt": "",
+      "roleHint": "general",
+      "mimeType": "font/woff",
+      "width": null,
+      "height": null,
+      "sizeBytes": 89504,
+      "sha1": "c3e7c4fde2a413de1fd72507f99e497e8ed023df",
+      "qualityFlags": [
+        "dimensions_unknown"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICB.woff",
+      "localPath": "images/home/GOTHICB.woff",
+      "sourceType": "css:url",
+      "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+      "alt": "",
+      "roleHint": "general",
+      "mimeType": "font/woff",
+      "width": null,
+      "height": null,
+      "sizeBytes": 77700,
+      "sha1": "4a045d21844b09d6488f951eecec8f9178430f60",
+      "qualityFlags": [
+        "dimensions_unknown"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://fonts.cdnfonts.com/s/18111/GOTHICBI.woff",
+      "localPath": "images/home/GOTHICBI.woff",
+      "sourceType": "css:url",
+      "selectorHint": "https://fonts.cdnfonts.com/css/century-gothic",
+      "alt": "",
+      "roleHint": "general",
+      "mimeType": "font/woff",
+      "width": null,
+      "height": null,
+      "sizeBytes": 82348,
+      "sha1": "b3ffa3c53caeb0c33e66a43013401d24c07a8934",
+      "qualityFlags": [
+        "dimensions_unknown"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/"
+    },
+    {
+      "sourceUrl": "https://ferreirafernanda.com/_next/image?q=75&url=/_next/static/media/banner_clientes.148340a3.png&w=3840",
+      "localPath": "images/post__higiene-oral/image.webp",
+      "sourceType": "img:src",
+      "selectorHint": "img.banner_img",
+      "alt": "Higiene Oral",
+      "roleHint": "hero_or_banner",
+      "mimeType": "image/webp",
+      "width": 1920,
+      "height": 1080,
+      "sizeBytes": 14852,
+      "sha1": "4b99a83684383dde55b1692ccaa711e8d0d998a5",
+      "qualityFlags": [
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/post/higiene-oral"
+    },
+    {
+      "sourceUrl": "https://images.ctfassets.net/s2g3zreylmbb/2kxks3l9mry2uLstjkAkdB/2d917646cbf4b0747bd6caeb77dabfb0/odontologia-e-conceito-de-saude-dos-dentes-na-clinica-odontologica-dentes-de-check-up-dentista-para-jovem-paciente-asiatico.webp",
+      "localPath": "images/post__higiene-oral/odontologia-e-conceito-de-saude-dos-dentes-na-clinica-odontologica-dentes-de-check-up-dentista-para-jovem-paciente-asiatico.webp",
+      "sourceType": "img:src",
+      "selectorHint": "img.chakra-image.css-0",
+      "alt": "Higiene Oral",
+      "roleHint": "team",
+      "mimeType": "image/webp",
+      "width": 626,
+      "height": 418,
+      "sizeBytes": 38558,
+      "sha1": "2da7bfe277786e983ee4b754b6fbe8c031bf47b0",
+      "qualityFlags": [
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/post/higiene-oral"
+    },
+    {
+      "sourceUrl": "https://images.ctfassets.net/s2g3zreylmbb/6HVcKgnKu8UMVY1YfIC1g4/b4e7c459873cdb6779969f2ec743733a/botox-beneficios-large_m-1.webp",
+      "localPath": "images/post__harmonizacao-facial/botox-beneficios-large_m-1.webp",
+      "sourceType": "img:src",
+      "selectorHint": "img.chakra-image.css-0",
+      "alt": "HARMONIZAÇÃO FACIAL",
+      "roleHint": "general",
+      "mimeType": "image/webp",
+      "width": 940,
+      "height": 494,
+      "sizeBytes": 25242,
+      "sha1": "e030c8dd9e3f4ed8f3c2d809f61a62fe292dc4d5",
+      "qualityFlags": [
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/post/harmonizacao-facial"
+    },
+    {
+      "sourceUrl": "https://images.ctfassets.net/s2g3zreylmbb/4iqwjIsckIkoyFRFSa803E/af4d7e19aba605e656c6c5546176f089/FACETAS_DENTARIAS_.jpeg",
+      "localPath": "images/post__facetas-dentarias/FACETAS_DENTARIAS_.jpeg",
+      "sourceType": "img:src",
+      "selectorHint": "img.chakra-image.css-0",
+      "alt": "Facetas Dentarias",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 1024,
+      "height": 576,
+      "sizeBytes": 286432,
+      "sha1": "d2612ecc295e2fcb73c0b167e0b48a2074b092fa",
+      "qualityFlags": [
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/post/facetas-dentarias"
+    },
+    {
+      "sourceUrl": "https://images.ctfassets.net/s2g3zreylmbb/Cu9wNZDjy24a2MCFriDw4/9bed94d4f4e4347fb8fa70457305b172/Branqueamento-dentario-antes-depois-1024x338.jpeg",
+      "localPath": "images/post__branqueamento-dentarios/Branqueamento-dentario-antes-depois-1024x338.jpeg",
+      "sourceType": "img:src",
+      "selectorHint": "img.chakra-image.css-0",
+      "alt": "BRANQUEAMENTO DENTÁRIOS",
+      "roleHint": "before_after",
+      "mimeType": "image/jpeg",
+      "width": 1024,
+      "height": 338,
+      "sizeBytes": 63393,
+      "sha1": "2732be2e565c294d6ab17436a2d20254be5d0a76",
+      "qualityFlags": [
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://ferreirafernanda.com/post/branqueamento-dentarios"
+    },
+    {
+      "sourceUrl": "https://images.ctfassets.net/s2g3zreylmbb/4eKM794Kh0FOUaUTnS7YWj/679f561555560b2b27adda1f1d9a2597/odontopediatria-image.jpeg",
+      "localPath": "images/post__odontopediatra/odontopediatria-image.jpeg",
+      "sourceType": "img:src",
+      "selectorHint": "img.chakra-image.css-0",
+      "alt": "ODONTOPEDIATRA",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 1600,
+      "height": 1066,
+      "sizeBytes": 118402,
+      "sha1": "2d1985f3ce6d3aa6cec9d043f88fd141f67c3dda",
+      "qualityFlags": [],
+      "foundOnPage": "https://ferreirafernanda.com/post/odontopediatra"
+    }
+  ],
+  "errors": [
+    {
+      "url": "https://ferreirafernanda.com/webfonts/fa-brands-400.eot",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/webfonts/fa-brands-400.eot"
+    },
+    {
+      "url": "https://ferreirafernanda.com/webfonts/fa-brands-400.woff2",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "url": "https://ferreirafernanda.com/webfonts/fa-brands-400.woff",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/webfonts/fa-brands-400.woff"
+    },
+    {
+      "url": "https://ferreirafernanda.com/webfonts/fa-brands-400.ttf",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/webfonts/fa-brands-400.ttf"
+    },
+    {
+      "url": "https://ferreirafernanda.com/webfonts/fa-brands-400.svg",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/webfonts/fa-brands-400.svg"
+    },
+    {
+      "url": "https://ferreirafernanda.com/webfonts/fa-regular-400.eot",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/webfonts/fa-regular-400.eot"
+    },
+    {
+      "url": "https://ferreirafernanda.com/webfonts/fa-regular-400.woff2",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "url": "https://ferreirafernanda.com/webfonts/fa-regular-400.woff",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/webfonts/fa-regular-400.woff"
+    },
+    {
+      "url": "https://ferreirafernanda.com/webfonts/fa-regular-400.ttf",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/webfonts/fa-regular-400.ttf"
+    },
+    {
+      "url": "https://ferreirafernanda.com/webfonts/fa-regular-400.svg",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/webfonts/fa-regular-400.svg"
+    },
+    {
+      "url": "https://ferreirafernanda.com/webfonts/fa-solid-900.eot",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/webfonts/fa-solid-900.eot"
+    },
+    {
+      "url": "https://ferreirafernanda.com/webfonts/fa-solid-900.woff2",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "url": "https://ferreirafernanda.com/webfonts/fa-solid-900.woff",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/webfonts/fa-solid-900.woff"
+    },
+    {
+      "url": "https://ferreirafernanda.com/webfonts/fa-solid-900.ttf",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/webfonts/fa-solid-900.ttf"
+    },
+    {
+      "url": "https://ferreirafernanda.com/webfonts/fa-solid-900.svg",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/webfonts/fa-solid-900.svg"
+    },
+    {
+      "url": "https://ferreirafernanda.com/2dff0768f4c0a53228761eab917e2c65556042d4/32b76/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/2dff0768f4c0a53228761eab917e2c65556042d4/32b76/static/media/slick.a4e97f5a2a64f0ab1323.eot"
+    },
+    {
+      "url": "https://ferreirafernanda.com/af91c12f0f406a4f801aeb3b398768fe41d8f864/3496a/static/media/slick.295183786cd8a1389865.woff",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/af91c12f0f406a4f801aeb3b398768fe41d8f864/3496a/static/media/slick.295183786cd8a1389865.woff"
+    },
+    {
+      "url": "https://ferreirafernanda.com/3331eebdd4ba348ef25abe00c39ffbe867d46575/9a8c6/static/media/slick.c94f7671dcc99dce43e2.ttf",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/3331eebdd4ba348ef25abe00c39ffbe867d46575/9a8c6/static/media/slick.c94f7671dcc99dce43e2.ttf"
+    },
+    {
+      "url": "https://ferreirafernanda.com/17f63c6f6131389462ba3d814b7ddf83344705f9/03b39/static/media/slick.2630a3e3eab21c607e21.svg",
+      "error": "404 Client Error: Not Found for url: https://ferreirafernanda.com/17f63c6f6131389462ba3d814b7ddf83344705f9/03b39/static/media/slick.2630a3e3eab21c607e21.svg"
+    }
+  ],
+  "manualPages": [
+    {
+      "url": "https://ferreirafernanda.com/invisalign",
+      "slug": "invisalign",
+      "title": "Dr Fernanda Ferreira — Invisalign",
+      "status": "ok",
+      "localHtmlPath": "pages/invisalign.html",
+      "scrapedBy": "manual",
+      "note": "Página não descoberta automaticamente pelo scraper. Adicionada manualmente via read_url_content."
+    },
+    {
+      "url": "https://ferreirafernanda.com/tecnologias",
+      "slug": "tecnologias",
+      "title": "Dr Fernanda Ferreira — Tecnologias",
+      "status": "ok",
+      "localHtmlPath": "pages/tecnologias.html",
+      "scrapedBy": "manual",
+      "note": "Página não descoberta automaticamente pelo scraper. Adicionada manualmente via read_url_content."
+    },
+    {
+      "url": "https://ferreirafernanda.com/contato",
+      "slug": "contato",
+      "title": "Dr Fernanda Ferreira — Contato",
+      "status": "ok",
+      "localHtmlPath": "pages/contato.html",
+      "scrapedBy": "manual",
+      "note": "Página não descoberta automaticamente pelo scraper. Adicionada manualmente via read_url_content."
+    }
+  ]
+}

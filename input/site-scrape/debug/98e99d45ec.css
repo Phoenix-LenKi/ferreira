@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Century Gothic'), url('https://fonts.cdnfonts.com/s/18111/GOTHIC.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Century Gothic'), url('https://fonts.cdnfonts.com/s/18111/GOTHICI.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Century Gothic'), url('https://fonts.cdnfonts.com/s/18111/GOTHICB.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Century Gothic'), url('https://fonts.cdnfonts.com/s/18111/GOTHICBI.woff') format('woff');
+}
+
+

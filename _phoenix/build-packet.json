@@ -1,0 +1,31 @@
+{
+    "jobId": "prep_ferreira_odontologia_mn5jk4q9",
+    "status": "ready",
+    "lead": {
+        "originalSiteUrl": "https://ferreirafernanda.com/",
+        "leadName": "Ferreira Odontologia",
+        "niche": "Odontologia",
+        "cityState": "Florianópolis - SC",
+        "whatsapp": "(48) 99152-0406",
+        "observations": "Hospedado no Vercel\nInstagram ativo, provável social media atuando"
+    },
+    "project": {
+        "projectSlug": "ferreira-odontologia",
+        "projectDir": "E:/APPS/Projeto-Phoenix/ferreira-odontologia",
+        "scrapeDir": "E:/APPS/Projeto-Phoenix/ferreira-odontologia/input/site-scrape"
+    },
+    "paths": {
+        "localImageArchiveDir": "E:/APPS/Projeto-Phoenix/ferreira-odontologia/input/site-scrape/images",
+        "imageManifestFile": "E:/APPS/Projeto-Phoenix/ferreira-odontologia/input/site-scrape/manifest.json",
+        "localHtmlArchiveDir": "E:/APPS/Projeto-Phoenix/ferreira-odontologia/input/site-scrape/pages"
+    },
+    "checks": {
+        "projectDirExists": true,
+        "imagesDirExists": true,
+        "pagesDirExists": true,
+        "manifestExists": true
+    },
+    "promptVars": "ORIGINAL_SITE_URL = https://ferreirafernanda.com/\nLEAD_NAME = Ferreira Odontologia\nNICHO = Odontologia\nCIDADE_ESTADO = Florianópolis - SC\nWHATSAPP_DESTINO = (48) 99152-0406\nOBSERVACOES_PHOENIX = Hospedado no Vercel\nInstagram ativo, provável social media atuando\nLOCAL_IMAGE_ARCHIVE_DIR = E:/APPS/Projeto-Phoenix/ferreira-odontologia/input/site-scrape/images\nIMAGE_MANIFEST_FILE = E:/APPS/Projeto-Phoenix/ferreira-odontologia/input/site-scrape/manifest.json\nLOCAL_HTML_ARCHIVE_DIR = E:/APPS/Projeto-Phoenix/ferreira-odontologia/input/site-scrape/pages\nDEMO_URL = ",
+    "generatedAt": "2026-03-25T01:49:01-03:00",
+    "errorMessage": ""
+}
